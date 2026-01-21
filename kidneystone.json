@@ -1,0 +1,21 @@
+{
+  "name": "Kidney Stones",
+  "defect": "Urine supersaturation with calcium/oxalate",
+  "pathway": "Calcium and oxalate metabolism",
+  "consequences": [
+    "Renal colic",
+    "Hematuria"
+  ],
+  "tests": [
+    "Urine analysis",
+    "CT KUB"
+  ],
+  "medicines": [
+    "Thiazide diuretics",
+    "Potassium citrate"
+  ],
+  "prevention": [
+    "High fluid intake",
+    "Low oxalate diet"
+  ]
+}
