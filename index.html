@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>PathoMetabo</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<h1>🧬 PathoMetabo</h1>
+<p><b>Biochemistry-based disease → pathway → treatment explorer</b></p>
+
+<select id="diseaseSelect">
+  <option value="">Select Disease</option>
+  <option value="diabetes">Diabetes Mellitus</option>
+  <option value="pku">Phenylketonuria</option>
+  <option value="gout">Gout</option>
+  <option value="galactosemia">Galactosemia</option>
+  <option value="hypertension">Hypertension</option>
+  <option value="gallstone">Gallstones</option>
+  <option value="kidneystone">Kidney Stones</option>
+  <option value="asthma">Bronchial Asthma</option>
+  <option value="copd">COPD</option>
+</select>
+
+<button onclick="loadDisease()">Load</button>
+
+<hr>
+
+<h2 id="name"></h2>
+
+<div class="card"><b>Primary Defect:</b> <span id="defect"></span></div>
+<div class="card"><b>Affected Pathway:</b> <span id="pathway"></span></div>
+
+<div class="card">
+<b>Metabolic / Pathophysiological Consequences:</b>
+<ul id="consequences"></ul>
+</div>
+
+<div class="card">
+<b>Diagnostic Tests:</b>
+<ul id="tests"></ul>
+</div>
+
+<div class="card">
+<b>Usual Medicines (Mechanism-based):</b>
+<ul id="medicines"></ul>
+</div>
+
+<div class="card">
+<b>Prevention / Protection:</b>
+<ul id="prevention"></ul>
+</div>
+
+<script src="js/app.js"></script>
+</body>
+</html>
