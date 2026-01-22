@@ -1,0 +1,28 @@
+{
+  "name": "Diabetes Mellitus",
+  "defect": "Insulin deficiency or insulin resistance",
+  "pathway": "Carbohydrate, lipid and protein metabolism",
+  "consequences": [
+    "Decreased glycolysis",
+    "Increased gluconeogenesis",
+    "Increased lipolysis",
+    "Ketone body formation",
+    "Protein breakdown"
+  ],
+  "tests": [
+    "Fasting blood glucose",
+    "HbA1c",
+    "Urine ketones",
+    "Lipid profile"
+  ],
+  "medicines": [
+    "Insulin",
+    "Metformin",
+    "Sulfonylureas"
+  ],
+  "prevention": [
+    "Exercise",
+    "Low glycemic diet",
+    "Weight control"
+  ]
+}

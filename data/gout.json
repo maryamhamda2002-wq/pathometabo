@@ -1,0 +1,22 @@
+{
+  "name": "Gout",
+  "defect": "Hyperuricemia",
+  "pathway": "Purine metabolism",
+  "consequences": [
+    "Uric acid crystal deposition",
+    "Inflammatory arthritis"
+  ],
+  "tests": [
+    "Serum uric acid",
+    "Joint fluid analysis"
+  ],
+  "medicines": [
+    "Allopurinol",
+    "Colchicine",
+    "NSAIDs"
+  ],
+  "prevention": [
+    "Low purine diet",
+    "Avoid alcohol"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Gallstones",
+  "defect": "Cholesterol supersaturation of bile",
+  "pathway": "Cholesterol and bile acid metabolism",
+  "consequences": [
+    "Gallstone formation",
+    "Biliary obstruction"
+  ],
+  "tests": [
+    "Ultrasound abdomen",
+    "Liver function tests"
+  ],
+  "medicines": [
+    "Ursodeoxycholic acid",
+    "Cholecystectomy"
+  ],
+  "prevention": [
+    "Balanced diet",
+    "Avoid rapid weight loss"
+  ]
+}

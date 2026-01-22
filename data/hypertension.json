@@ -1,0 +1,23 @@
+{
+  "name": "Hypertension",
+  "defect": "RAAS overactivation and sodium retention",
+  "pathway": "Renin-Angiotensin-Aldosterone System",
+  "consequences": [
+    "Vasoconstriction",
+    "Fluid retention",
+    "Cardiac hypertrophy"
+  ],
+  "tests": [
+    "Blood pressure",
+    "Serum electrolytes"
+  ],
+  "medicines": [
+    "ACE inhibitors",
+    "ARBs",
+    "Diuretics"
+  ],
+  "prevention": [
+    "Low salt diet",
+    "Exercise"
+  ]
+}

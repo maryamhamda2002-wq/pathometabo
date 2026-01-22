@@ -1,0 +1,21 @@
+{
+  "name": "Bronchial Asthma",
+  "defect": "Chronic airway inflammation",
+  "pathway": "Arachidonic acid / leukotriene pathway",
+  "consequences": [
+    "Bronchoconstriction",
+    "Mucus secretion"
+  ],
+  "tests": [
+    "Pulmonary function test",
+    "Peak flow rate"
+  ],
+  "medicines": [
+    "Beta-2 agonists",
+    "Inhaled corticosteroids"
+  ],
+  "prevention": [
+    "Avoid allergens",
+    "Regular inhaler use"
+  ]
+}

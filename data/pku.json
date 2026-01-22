@@ -1,0 +1,22 @@
+{
+  "name": "Phenylketonuria",
+  "defect": "Phenylalanine hydroxylase deficiency",
+  "pathway": "Phenylalanine → Tyrosine metabolism",
+  "consequences": [
+    "Phenylalanine accumulation",
+    "Neurotoxicity",
+    "Hypopigmentation"
+  ],
+  "tests": [
+    "Blood phenylalanine",
+    "Guthrie test"
+  ],
+  "medicines": [
+    "Low phenylalanine diet",
+    "Tyrosine supplementation"
+  ],
+  "prevention": [
+    "Neonatal screening",
+    "Dietary compliance"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Galactosemia",
+  "defect": "Galactose-1-phosphate uridyltransferase deficiency",
+  "pathway": "Galactose metabolism",
+  "consequences": [
+    "Liver damage",
+    "Cataracts",
+    "Hypoglycemia"
+  ],
+  "tests": [
+    "Blood galactose",
+    "Urine reducing sugars"
+  ],
+  "medicines": [
+    "Lactose-free diet"
+  ],
+  "prevention": [
+    "Newborn screening"
+  ]
+}

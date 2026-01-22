@@ -1,0 +1,21 @@
+{
+  "name": "Chronic Obstructive Pulmonary Disease",
+  "defect": "Oxidative stress and protease imbalance",
+  "pathway": "Gas exchange and oxidative metabolism",
+  "consequences": [
+    "Air trapping",
+    "Respiratory acidosis"
+  ],
+  "tests": [
+    "Spirometry",
+    "ABGs"
+  ],
+  "medicines": [
+    "Bronchodilators",
+    "Oxygen therapy"
+  ],
+  "prevention": [
+    "Smoking cessation",
+    "Pulmonary rehabilitation"
+  ]
+}
