@@ -3,14 +3,14 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   margin: 0;
   padding: 0;
-  color: #1b2a3a;
+  color: #0f2433;
 
   /* medical gradient background */
   background:
-    radial-gradient(circle at 20% 20%, rgba(43, 140, 255, 0.22), transparent 40%),
+    radial-gradient(circle at 20% 20%, rgba(0, 122, 204, 0.22), transparent 40%),
     radial-gradient(circle at 80% 30%, rgba(0, 210, 255, 0.18), transparent 45%),
-    radial-gradient(circle at 60% 80%, rgba(0, 210, 140, 0.12), transparent 50%),
-    linear-gradient(135deg, #f0f7ff 0%, #ffffff 55%, #f7fbff 100%);
+    radial-gradient(circle at 60% 80%, rgba(0, 170, 130, 0.12), transparent 50%),
+    linear-gradient(135deg, #eaf4ff 0%, #ffffff 55%, #f5fbff 100%);
   overflow-x: hidden;
 }
 
@@ -21,8 +21,8 @@ body::before {
   inset: 0;
   pointer-events: none;
   background-image:
-    linear-gradient(to right, rgba(10, 100, 180, 0.18) 1px, transparent 1px),
-    linear-gradient(to bottom, rgba(10, 100, 180, 0.14) 1px, transparent 1px);
+    linear-gradient(to right, rgba(0, 110, 180, 0.18) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(0, 110, 180, 0.14) 1px, transparent 1px);
   background-size: 80px 80px, 80px 80px;
   opacity: 0.6;
 }
@@ -37,8 +37,8 @@ body::after {
       90deg,
       transparent 0px,
       transparent 40px,
-      rgba(43, 140, 255, 0.35) 41px,
-      rgba(43, 140, 255, 0.35) 44px,
+      rgba(0, 122, 204, 0.35) 41px,
+      rgba(0, 122, 204, 0.35) 44px,
       transparent 45px,
       transparent 90px
     );
@@ -59,6 +59,7 @@ h1 {
   margin-bottom: 10px;
   letter-spacing: 1px;
   font-weight: 700;
+  color: #0b2a3a;
 }
 
 /* ----------------- Controls ----------------- */
@@ -73,29 +74,30 @@ select, button {
   padding: 12px 16px;
   font-size: 16px;
   border-radius: 10px;
-  border: 1px solid #d6e6f7;
+  border: 1px solid #bcd6ee;
+  background: #ffffff;
 }
 
 button {
   cursor: pointer;
-  background: #2b8cff;
+  background: #0b63b8;
   color: #fff;
   border: none;
   transition: 0.3s;
 }
 
 button:hover {
-  background: #1f6fe6;
+  background: #084f8e;
 }
 
 /* ----------------- Cards ----------------- */
 .card {
-  background: rgba(255, 255, 255, 0.90);
+  background: rgba(255, 255, 255, 0.92);
   border-radius: 18px;
-  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.10);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.08);
   padding: 18px;
   margin: 12px 0;
-  border-left: 6px solid #2b8cff;
+  border-left: 6px solid #0b63b8;
 }
 
 ul {
@@ -113,5 +115,5 @@ li {
   font-size: 28px;
   font-weight: 700;
   margin: 10px 0 20px;
-  color: #103a5a;
+  color: #0b2a3a;
 }
