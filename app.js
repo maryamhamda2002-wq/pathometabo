@@ -2,7 +2,7 @@ function loadDisease() {
   const disease = document.getElementById("diseaseSelect").value;
   if (!disease) return;
 
-  fetch(`data/${disease}.json`)
+  fetch(`${disease}.json`)
     .then(res => res.json())
     .then(data => {
       document.getElementById("name").innerText = data.name;
