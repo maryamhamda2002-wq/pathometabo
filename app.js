@@ -13,7 +13,8 @@ function loadDisease() {
       fill("tests", data.tests);
       fill("medicines", data.medicines);
       fill("prevention", data.prevention);
-    });
+    })
+    .catch(err => console.error("JSON load error:", err));
 }
 
 function fill(id, arr) {
