@@ -1,32 +1,27 @@
-/* --------- Base --------- */
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   margin: 0;
   padding: 0;
   color: #1b2a3a;
 
-  /* Medical pattern background */
   background:
-    radial-gradient(circle at 20% 20%, rgba(43, 140, 255, 0.15), transparent 40%),
-    radial-gradient(circle at 80% 30%, rgba(0, 210, 255, 0.12), transparent 45%),
-    radial-gradient(circle at 60% 80%, rgba(0, 210, 140, 0.10), transparent 50%),
+    radial-gradient(circle at 20% 20%, rgba(43, 140, 255, 0.20), transparent 40%),
+    radial-gradient(circle at 80% 30%, rgba(0, 210, 255, 0.18), transparent 45%),
+    radial-gradient(circle at 60% 80%, rgba(0, 210, 140, 0.12), transparent 50%),
     linear-gradient(135deg, #f0f7ff 0%, #ffffff 55%, #f7fbff 100%);
-
   overflow-x: hidden;
 }
 
-/* --------- Medical pattern (grid + ECG) --------- */
 body::before {
   content: "";
   position: fixed;
   inset: 0;
   pointer-events: none;
   background-image:
-    linear-gradient(to right, rgba(10, 100, 180, 0.10) 1px, transparent 1px),
-    linear-gradient(to bottom, rgba(10, 100, 180, 0.08) 1px, transparent 1px),
-    linear-gradient(to right, rgba(255, 255, 255, 0.2) 1px, transparent 1px);
-  background-size: 80px 80px, 80px 80px, 160px 160px;
-  opacity: 0.55;
+    linear-gradient(to right, rgba(10, 100, 180, 0.20) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(10, 100, 180, 0.16) 1px, transparent 1px);
+  background-size: 80px 80px, 80px 80px;
+  opacity: 0.6;
 }
 
 body::after {
@@ -34,30 +29,27 @@ body::after {
   position: fixed;
   inset: 0;
   pointer-events: none;
-
-  /* ECG style line */
   background-image:
     repeating-linear-gradient(
       90deg,
       transparent 0px,
-      transparent 50px,
-      rgba(43, 140, 255, 0.35) 51px,
-      rgba(43, 140, 255, 0.35) 54px,
-      transparent 55px,
+      transparent 40px,
+      rgba(43, 140, 255, 0.35) 41px,
+      rgba(43, 140, 255, 0.35) 44px,
+      transparent 45px,
       transparent 90px
     );
-  opacity: 0.18;
+  opacity: 0.25;
   mix-blend-mode: overlay;
 }
 
-/* --------- Container --------- */
+/* ---------- rest of your styles ---------- */
 .container {
   max-width: 1000px;
   margin: 40px auto;
   padding: 20px;
 }
 
-/* --------- Header --------- */
 h1 {
   text-align: center;
   margin-bottom: 10px;
@@ -65,13 +57,6 @@ h1 {
   font-weight: 700;
 }
 
-/* --------- Sub heading --------- */
-h2 {
-  font-size: 22px;
-  margin: 15px 0 10px;
-}
-
-/* --------- Controls --------- */
 .controls {
   display: flex;
   justify-content: center;
@@ -98,7 +83,6 @@ button:hover {
   background: #1f6fe6;
 }
 
-/* --------- Card Style (Medical look) --------- */
 .card {
   background: rgba(255, 255, 255, 0.85);
   border-radius: 18px;
@@ -108,7 +92,6 @@ button:hover {
   border-left: 5px solid #2b8cff;
 }
 
-/* --------- List Style --------- */
 ul {
   padding-left: 20px;
   margin: 10px 0;
@@ -118,19 +101,10 @@ li {
   margin: 6px 0;
 }
 
-/* --------- Name style --------- */
 #name {
   text-align: center;
   font-size: 28px;
   font-weight: 700;
   margin: 10px 0 20px;
   color: #103a5a;
-}
-
-/* --------- Footer (optional) --------- */
-footer {
-  text-align: center;
-  margin-top: 20px;
-  color: #5a6b7a;
-  font-size: 14px;
 }
